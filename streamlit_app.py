@@ -34,7 +34,7 @@ try:
 except URLError as e:
   streamlit.error()
 
-#streamlit.stop()
+streamlit.stop()
 
 
 #my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
